@@ -1,26 +1,52 @@
 body{
     background-color: #544F53;
+    font-family: Nunito Sans;
+    color: white;
+}
+
+.box{
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    
 }
 
 .box1{
-    display: inline-block;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    position: relative;
+    flex-flow: column wrap;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .box2{
-    display: inline-block;
-    align-content: space-between;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
 .box3{
-    display: inline-block;
-    align-content: space-between;
+    position: relative;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: space-around;
 }
 
-img{
-    display: inline-block;
-    height: 300px;
-    width: 250 px;
+.t{
+    background-color: #AB1F83; 
+    width: 25px;
+    height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    position: absolute;
+    top: -7px
+}
+
+.city{
+    font-size: 30px;
 }
