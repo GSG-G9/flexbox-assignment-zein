@@ -1,0 +1,17 @@
+body{
+    background-color: #544F53;
+}
+
+.box1{
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box2{
+    display: block;
+}
+
+.box2{
+    display: block;
+}
