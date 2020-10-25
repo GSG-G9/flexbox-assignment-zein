@@ -15,3 +15,9 @@ body{
 .box2{
     display: block;
 }
+
+img{
+display: block;
+height: 300px;
+width: 250 px;
+}
